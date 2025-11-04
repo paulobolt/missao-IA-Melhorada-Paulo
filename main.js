@@ -9,12 +9,21 @@ const perguntas = [
         enunciado: "Quando foi desenvolvido a primeira copa do mundo?",
         alternativas: [
             {
-                texto: " 13 de julho de 1930, no uruguai.",
-                afirmacao: " criada em 1930 no uruguai. ",
+                texto: " 13 de julho de 1930, no Uruguai.",
+                afirmacao: [
+                " Criada em 1930 no Uruguai. ",
+                "afirmacao 2",
+                "afirmacao 3"
+
+                ]
             },
             {
-                texto: " criada  13 de julho de 1934, no méxico. ",
-                afirmacao: " criada no dia 13 de julho. ",
+                texto: " Criada  13 de julho de 1934, no México. ",
+                afirmacao: [
+                " Criada no dia 13 de julho. ",
+                "2",
+                "3"
+                ]
             }
         ]
     },
@@ -23,7 +32,8 @@ const perguntas = [
         alternativas: [
             {
                 texto: " Até 1970, o troféu era conhecido como Taça Jules Rimet.  ",
-                afirmacao: " Criador da Copa Jules Rimet. ",
+                afirmacao: 
+                " Criador da Copa Jules Rimet. ",
             },
             {
                 texto: " Taça das Nações Unidas ",
